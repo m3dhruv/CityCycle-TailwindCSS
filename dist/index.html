@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/icons/location-dot?f=classic&s=solid">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body class="bg-gray-50">
+    <!-- navbar start -->
+    <nav class="absolute z-100 flex content-center items-center justify-between px-10 py-3 top-0 w-full">
+        <div class="flex">
+            <img class="size-8 my-2 mx-1 text-white" src="./images/bike.png" alt="" />
+            <div class="text-2xl my-2 mx-1 font-bold text-white">CityCycle</div>
+        </div>
+        <ul class="flex content-center items-center">
+            <li class="font-medium mx-4 text-lg cursor-pointer text-white">Home</li>
+            <li class="font-medium mx-4 text-lg cursor-pointer text-white">How it Works</li>
+            <li class="font-medium mx-4 text-lg cursor-pointer text-white">About us</li>
+        </ul>
+        <div>
+            <button
+                class="font-medium text-lg cursor-pointer rounded-3xl p-1 px-5 text-white bg-emerald-500 hover:bg-emerald-600">
+                Start Riding
+            </button>
+        </div>
+    </nav>
+    <!-- navbar end  -->
+
+    <!-- hero section start -->
+    <header class="relative h-screen">
+        <div class="inset-0 absolute">
+            <img class="absolute a w-full h-full object-cover" src="./images/hero.jpg" alt="City bikes" />
+            <div class="absolute inset-0 bg-black/50" />
+        </div>
+
+        <div class="relative z-10 container mx-auto px-6 h-[calc(110vh-88px)] flex items-center">
+            <div class="max-w-2xl">
+                <h1 class="text-5xl md:text-5xl font-bold text-white mb-6">
+                    Explore the City on Two Wheels
+                </h1>
+                <p class="text-xl text-white/90 mb-8">
+                    Join thousands of riders who choose CityCycle for convenient, eco-friendly urban transportation.
+                    Rent a bike instantly and ride anywhere in the city.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button
+                        class="bg-emerald-500 text-white px-8 cursor-pointer py-3 rounded-full text-lg font-semibold hover:bg-emerald-600 transition">
+                        Find a Bike
+                    </button>
+                    <button
+                        class="bg-white text-gray-900 px-8 py-3 cursor-pointer rounded-full text-lg font-semibold hover:bg-gray-200 transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hero section end -->
+
+    <!-- card section start -->
+    <section class="bg-gray-50">
+        <div class="text-center ">
+            <h1 class="text-4xl font-bold my-10">Why Choose CityCycle</h1>
+        </div>
+        <div class="mb-0">
+
+        <div class="grid grid-cols-3 gap-4 m-5 ">
+            <div class="m-2 shadow-black text-center bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <i class="text-emerald-600 fa-solid fa-location-dot text-2xl mx-auto  mb-3 w-16 h-16 rounded-full"></i>
+                <h3 class="text-xl font-semibold mb-2">Convenient Locations</h3>
+                <p class="text-gray-600">Multiple stations across the city for easy access</p>
+            </div>
+            <div class="m-2 shadow-black text-center bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <i class="text-emerald-600 fas fa-clock text-2xl mx-auto  mb-3 w-16 h-16 rounded-full"></i>
+                <h3 class="text-xl font-semibold mb-2">24/7 Availability</h3>
+                <p class="text-gray-600">Rent a bike anytime, day or night</p>
+            </div>
+            <div class="m-2 shadow-black text-center bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <i class="text-emerald-600 fas fa-credit-card text-2xl mx-auto  mb-3 w-16 h-16 rounded-full"></i>
+                <h3 class="text-xl font-semibold mb-2">Easy Payment</h3>
+                <p class="text-gray-600">Secure and seamless payment processing</p>
+            </div>
+            <div class="m-2 shadow-black text-center bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <i class="text-emerald-600 fas fa-lock text-2xl mx-auto  mb-3 w-16 h-16 rounded-full"></i>
+                <h3 class="text-xl font-semibold mb-2">Safe & Maintained</h3>
+                <p class="text-gray-600">Regular maintenance and safety checks</p>
+            </div>
+            <div class="m-2 shadow-black text-center bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <i class="text-emerald-600 fa-solid fas fa-biking text-2xl mx-auto  mb-3 w-16 h-16 rounded-full"></i>
+                <h3 class="text-xl font-semibold mb-2">Ride & Return</h3>
+                <p class="text-gray-600">Enjoy your ride and return to any station</p>
+            </div>
+            <div class="m-2 shadow-black text-center bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                <i class="text-emerald-600 fas fa-leaf text-2xl mx-auto  mb-3 w-16 h-16 rounded-full"></i>
+                <h3 class="text-xl font-semibold mb-2">Eco-Friendly</h3>
+                <p class="text-gray-600">Reduce your carbon footprint while you ride</p>
+            </div>
+          </div>
+            
+            
+    </section>
+     <!-- card section end  -->
+
+    
+    <!-- pricing start  -->
+    <section class=" py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+          <h2 class="text-center text-4xl font-bold my-10">Simple Pricing</h2>
+          <div class="grid md:grid-cols-3 gap-4">
+            <div class="bg-white p-8 rounded-xl shadow-md">
+              <h3 class="text-xl font-semibold mb-4">Single Ride</h3>
+              <p class="text-4xl font-bold mb-6">$2.99</p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center font-semibold "><i class="fa fa-clock-o w-5 h-5 m-2 text-emerald-600"></i>30-minute ride</li>
+                <li class="flex items-center font-semibold"><i class='fas fa-user-tie w-5 h-5 m-2 text-emerald-600'></i> one time access</li>
+                <li class="flex items-center font-semibold"><i class="fa fa-map-marker w-5 h-5 m-2 text-emerald-600"></i>Unlock any bike</li>
+              </ul>
+              <button class="w-full font-semibold bg-emerald-500 text-white py-2 rounded-full hover:bg-emerald-600">
+                Choose Plan
+              </button>
+            </div>
+            <div class="bg-white p-8 grid rounded-xl shadow-md transform scale-105">
+              <div class="absolute font-bold top-0 bg-emerald-700  text-white px-5 py-1 rounded-3xl">
+                Popular
+              </div>
+              <h3 class="text-xl font-semibold mb-4">Day Pass</h3>
+              <p class="text-4xl font-bold mb-6">$10.99</p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center font-semibold"><i class="fa fa-clock-o w-5 h-5 m-2 text-emerald-600"></i>Unlimited 30-min rides</li>
+                <li class="flex items-center font-semibold"><i class='fas fa-user-tie w-5 h-5 m-2 text-emerald-600'></i> 24-hour access</li>
+                <li class="flex items-center font-semibold"><i class="fa fa-map-marker w-5 h-5 m-2 text-emerald-600"></i> All stations included</li>
+              </ul>
+              <button class="w-full bg-emerald-500 font-semibold text-white py-2 rounded-full hover:bg-emerald-600">
+                Choose Plan
+              </button>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md">
+              <h3 class="text-xl font-semibold mb-4">Monthly Pass</h3>
+              <p class="text-4xl font-bold mb-6">$99.99</p>
+              <ul class="space-y-3 mb-8">
+                <li class="flex items-center font-semibold"><i class="fa fa-clock-o w-5 h-5 m-2 text-emerald-600"></i>Unlimited 45-min rides</li>
+                <li class="flex items-center font-semibold"><i class='fas fa-user-tie w-5 h-5 m-2 text-emerald-600'></i> Priority support</li>
+                <li class="flex items-center font-semibold"><i class="fa fa-map-marker w-5 h-5 m-2 text-emerald-600"></i> Reserved parking</li>
+              </ul>
+              <button class="w-full font-semibold bg-emerald-500 text-white py-2 rounded-full hover:bg-emerald-600">
+                Choose Plan
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- pricing end  -->
+
+    
+      <!-- section start  -->
+    <section class="bg-emerald-500 py-20">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl font-bold text-white mb-8">
+            Ready to Start Your Journey?
+          </h2>
+          <p class="text-white/90 text-xl mb-8 max-w-2xl mx-auto">
+            Join thousands of satisfied riders who choose CityCycle for their daily commute and leisure rides.
+          </p>
+          <button class="bg-white tbg-emerald-500 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
+            Download the App
+          </button>
+        </div>
+      </section>
+     <!-- section end  -->
+
+
+     <!-- footer start  -->
+     <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-biking text-xl"></i>
+              <span class="text-xl font-bold">CityCycle</span>
+            </div>
+            <div class="text-sm text-gray-400">
+              © 2025 CityCycle. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end  -->
+
+    
+
+     <script src="https://kit.fontawesome.com/796cbe5f70.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
